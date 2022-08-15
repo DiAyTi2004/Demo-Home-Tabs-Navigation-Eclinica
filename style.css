@@ -1,0 +1,56 @@
+* {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTabs__wrapper {
+    font-family: sans-serif;
+    margin: 6px 0px;
+    border-bottom: 2.4px solid #128870;
+
+}
+
+.main {
+    padding: 0 16px;
+    padding-bottom: 0.6px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+.tab {
+    margin: 0px 0.4px;
+    display: flex;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+    transition: all linear 0.2s;
+}
+
+.tab:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.content {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    padding: 8px;
+    background-color: #1bbc9b;
+}
+
+.content.chosing {
+    background-color: #128870;
+}
